@@ -1,0 +1,70 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: url(imgs/bg.jpg);
+    background-size: cover;
+    color: white;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 3vh;
+    text-align: center;
+}
+p {
+    font-size: 3.5vh;
+    font-weight: bolder;
+}
+.description {
+    font-size: 2.8vh;
+    text-align: center;
+}
+
+.keyboard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+    background: #fff;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .row {
+    display: flex;
+    gap: 5px;
+  }
+  
+  .key {
+    padding: 15px;
+    background-color: hsl(162, 100%, 50%);
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+    font-weight: bolder;
+  }
+  
+  .key:hover {
+    background-color: hsl(162, 75%, 24%);
+    color: rgb(255, 255, 255);
+
+  }
+  
+  .key:active {
+    background-color: hsl(162, 75%, 24%);
+    color: rgb(255, 255, 255);
+
+  }

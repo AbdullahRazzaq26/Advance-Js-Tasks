@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 1</title>
+    <link rel="shortcut icon" href="imgs/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <style>
+    </style>
+</head>
+
+<body>
+
+    <h1>Task 21: Name Finder Tool</h1>
+    <p class="description"><b>Task Explanation:</b>: Enter a letter to find names starting with that letter. A simple and handy tool to explore names!
+    </p>
+    <h2>Instructions:</h2>
+    <ol>
+        <li>Input a single letter in the text box.</li>
+        <li>Click the "Search" button to find matching names.</li>
+        <li>The matching names will appear below.</li>
+    </ol>
+    <div class="container">
+        <input type="text" id="letterInput" placeholder="Enter a letter" maxlength="1" class="input">
+        <button id="generateBtn" class="button" onclick="findNames()"><span>Give me 1 name!</span></button>
+        <button id="generateBtn" class="button" onclick="findallNames()"><span>Give me all names</span></button>
+    </div>
+    <p id="result"></p>
+
+
+    <h1>Made By Abdullah Razzaq</h1>
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>

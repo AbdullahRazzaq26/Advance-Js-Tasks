@@ -1,0 +1,151 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: url(imgs/bg.jpg);
+    background-size: cover;
+    color: white;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 3vh;
+    text-align: center;
+}
+
+.description {
+    font-size: 2.8vh;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.input {
+    height: 27px;
+    width: 150;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: #183153;
+    box-shadow: 0px 6px 24px 0px rgba(0, 0, 0, 0.2);
+    padding: 5px;
+    font-family: "Montserrat", sans-serif;
+
+}
+
+.input::placeholder {
+    font-size: 18px;
+    text-align: left;
+}
+
+input:focus {
+    outline: none;
+}
+
+
+
+.button {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background: #183153;
+    font-family: "Montserrat", sans-serif;
+    box-shadow: 0px 6px 24px 0px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    cursor: pointer;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.button:hover {
+    background-color: #ffd401;
+    color: #183153;
+}
+
+#result {
+    font-size: 3vh;
+    margin-top: 2px;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    gap: 1vh;
+}
+
+/* Media Queries for Responsiveness */
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 2.5vh;
+    }
+
+    .description {
+        font-size: 3vh;
+    }
+
+    .container {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .box {
+        height: 70px;
+        width: 70px;
+        font-size: 20px;
+    }
+
+    .button {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    h1 {
+        font-size: 2vh;
+    }
+
+    .description {
+        font-size: 2.8vh;
+    }
+
+    .container {
+        gap: 5px;
+    }
+
+    .box {
+        height: 60px;
+        width: 60px;
+        font-size: 18px;
+    }
+
+    .button {
+        font-size: 12px;
+        padding: 6px 12px;
+    }
+
+    #result {
+        font-size: 1.8vh;
+    }
+
+}

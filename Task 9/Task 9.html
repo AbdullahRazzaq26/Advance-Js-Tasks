@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task 9</title>
+  <link rel="shortcut icon" href="imgs/icon.png" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+
+<body>
+
+
+  <h1>Text Editor</h1>
+
+
+  <div class="main">
+    <h1>Transform Your Text Now!</h1>
+    <div class="text-area">
+      <textarea id="inputText" placeholder="Paste your text here"></textarea>
+      <textarea id="outputText" class="result" readonly></textarea>
+    </div>
+    <div class="buttons">
+      <button class="uppercase" onclick="uppercase('')">UPPER-CASE</button>
+      <button class="lowercase" onclick="lowercase('')">lower-case</button>
+      <input type="color" id="colorPicker" class="color-picker" onchange="changeColor()">
+    </div>
+  </div>
+
+
+  <div class="container">
+    <h1>Task 29: Responsive Text Transformation Interface</h1>
+    <p class="description"><b>Task Explanation:</b> A modern, responsive tool for transforming text to uppercase or
+      lowercase with a user-friendly interface that adapts across devices.</p>
+    <h1>Made By Abdullah Razzaq</h1>
+  </div>
+
+
+
+  <script src="app.js"></script>
+</body>
+
+</html>
