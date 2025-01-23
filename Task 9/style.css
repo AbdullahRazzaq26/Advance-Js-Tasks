@@ -74,13 +74,13 @@ textarea {
 }
 
 button {
-  padding: 40px 50px;
   border: none;
   border-radius: 4px;
   cursor: pointer;
   font-size: 20px;
   transition: background-color 0.3s ease;
   font-weight: bolder;
+  padding: 1vh;
 }
 
 button:hover {
