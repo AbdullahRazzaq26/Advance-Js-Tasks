@@ -19,8 +19,8 @@ body {
 h1 {
   font-size: 4vh;
   text-align: center;
-  font-weight: bolder;
   margin-bottom: 2vh;
+  font-weight: bold;
 }
 
 p {
@@ -76,7 +76,7 @@ textarea {
 }
 
 button {
-  padding: 20px 30px;
+  padding: 40px 50px;
   border: none;
   border-radius: 4px;
   cursor: pointer;
