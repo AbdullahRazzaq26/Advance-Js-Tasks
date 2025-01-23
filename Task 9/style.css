@@ -17,10 +17,8 @@ body {
 }
 
 h1 {
-  font-size: 4vh;
   text-align: center;
   margin-bottom: 2vh;
-  font-weight: bold;
 }
 
 p {
@@ -54,6 +52,7 @@ p {
   display: flex;
   flex-direction: column;
   gap: 10px;
+  color: black;
 }
 
 textarea {
