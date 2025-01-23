@@ -20,7 +20,7 @@ h1 {
   font-size: 4vh;
   text-align: center;
   margin-bottom: 2vh;
-  !font-weight: 90;
+  font-weight: bold;
 }
 
 p {
@@ -63,7 +63,7 @@ textarea {
   border: 1px solid #ccc;
   border-radius: 4px;
   resize: none;
-  !color: black;
+  color: black;
 }
 
 .buttons {
