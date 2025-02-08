@@ -4,7 +4,10 @@ body {
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
+<<<<<<< HEAD
   color: rgb(0, 0, 0);
+=======
+>>>>>>> b3dc5c6370a686d1a16381c96ea79dd2b8d33175
   margin: 0;
   padding: 0;
   display: flex;
@@ -12,14 +15,13 @@ body {
   align-items: center;
   justify-content: center;
   box-sizing: border-box;
+  color: white;
   min-height: 100vh;
   overflow-x: hidden;
 }
 
 h1 {
-  font-size: 4vh;
   text-align: center;
-  font-weight: bolder;
   margin-bottom: 2vh;
 }
 
@@ -46,7 +48,6 @@ p {
   width: 90%;
   max-width: 800px;
 }
-
 .main h1 {
   color: #000;
 }
@@ -55,6 +56,7 @@ p {
   display: flex;
   flex-direction: column;
   gap: 10px;
+  color: black;
 }
 
 textarea {
@@ -64,7 +66,7 @@ textarea {
   border: 1px solid #ccc;
   border-radius: 4px;
   resize: none;
-  color: #000;
+  color: black;
 }
 
 .buttons {
@@ -76,13 +78,13 @@ textarea {
 }
 
 button {
-  padding: 10px 20px;
   border: none;
   border-radius: 4px;
   cursor: pointer;
   font-size: 20px;
   transition: background-color 0.3s ease;
   font-weight: bolder;
+  padding: 1vh;
 }
 
 button:hover {
@@ -128,6 +130,7 @@ button:hover {
 
   textarea {
     height: 150px;
+    color: black;
     font-size: 14px;
   }
 
@@ -149,6 +152,8 @@ button:hover {
   textarea {
     height: 120px;
     font-size: 12px;
+    color: black;
+
   }
 
   button {
